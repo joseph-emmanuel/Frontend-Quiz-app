@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-const Switch = () => {
-  const [isChecked, setChecked] = useState(false);
+const HomeTypeCard = () => {
+//   const [isChecked, setChecked] = useState(false);
 
-  const toggleSwitch = () => {
-    setChecked(!isChecked);
-    console.log("isChecked", !isChecked)
-  };
+//   const toggleSwitch = () => {
+//     setChecked(!isChecked);
+//     console.log("isChecked", !isChecked)
+//   };
 
   return (
    <div className='flex flex-row gap-4'>
@@ -22,4 +22,4 @@ const Switch = () => {
   );
 };
 
-export default Switch;
+export default HomeTypeCard;
